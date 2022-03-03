@@ -9,7 +9,7 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 
     :: Your steam login example STEAMLOGIN= User name password
 	:: If it ask for your Steam Guard enter it and then type exit. Then rerun this script. 
-    SET STEAMLOGIN= MichaelJMAD	11261990
+    SET STEAMLOGIN= user pass
 	:: The AppID of the Game/Server you wish to Install/Update
 	:: Set your AppID example AppID=739590
     SET AppID=233780
