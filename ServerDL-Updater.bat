@@ -73,7 +73,7 @@ echo     You are about to Install/update your server
 echo        Dir: %InstallLocation%
 echo        
 echo.
-%STEAMPATH%\steamcmd.exe +login %STEAMLOGIN% +force_install_dir %InstallLocation% +"app_update %AppID%" validate +quit
+%STEAMPATH%\steamcmd.exe +force_install_dir %InstallLocation%  +login %STEAMLOGIN% +"app_update %AppID%" validate +quit
 echo .
 echo     Your Game Server is now up to date
 timeout 10
