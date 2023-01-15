@@ -3,8 +3,8 @@
 :: Steamcmd Path
 set steamcmdpath=E:\steam
 ::Steam username and Password
-set Username=Michaeljmad
-set Pass=11261990
+set Username=
+set Pass=
 :: Location to download mods to and location to move renamed mods. Mods when downloaded will be saved in a folder with the moid id. 
 :: Hence why we are renaming and moving to a diffrent folder, It will help keep mods upto date
 set download=E:\ArmaServer\ArmaMods\downloads
