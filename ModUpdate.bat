@@ -324,9 +324,9 @@ set "steamcmdpath=E:\steam
 
 :: OPTION 1: ASKING FOR STEAM LOGIN AND PASS
 
-set login=MichaelJMAD
+set login=UserName
 echo.
-set pass=11261990
+set pass=Pass
 echo.
 set install=E:\ArmaServer\ArmaMCCMissionsMods
 
