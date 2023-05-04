@@ -23,16 +23,17 @@ set modname="@MCC"
 :: SteamCMD Download script
 echo Downloading the Mod: %modname% - ID: %modid%
 echo.
-timeout 5
+timeout 1
 echo.
-%steamcmdpath%\steamcmd.exe +login %Username% %pass% +force_install_dir "%download%" +workshop_download_item %gameid%  %modid%" validate +quit
+%steamcmdpath%\steamcmd.exe +force_install_dir "%download%" +login %Username% %pass% +workshop_download_item %gameid%  %modid% validate +quit
+timeout 1
 cls
 echo Download Complete
-timeout 5
+timeout 1
 cls
 
 ::Renaming and moving script
 echo Renaming and Moveing Mod
 xcopy %download%\steamapps\workshop\content\%gameid%\%modid% "%moveto%\%modname%" /E/y/i
-timeout 3 
+timeout 1
 exit
