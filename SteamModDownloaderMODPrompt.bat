@@ -31,7 +31,7 @@ echo Downloading the Mod: %modname% - ID: %modid%
 echo.
 timeout 5
 echo.
-%steamcmdpath%\steamcmd.exe +login %Username% %pass% +force_install_dir "%download%" +workshop_download_item %gameid%  %modid%" validate +quit
+%steamcmdpath%\steamcmd.exe +login %Username% %pass% +force_install_dir "%download%" +workshop_download_item %gameid%  %modid% validate +quit
 cls
 echo Download Complete
 timeout 5
